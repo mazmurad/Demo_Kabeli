@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f49b19f-1ea8-4324-a669-5f54629122f5">
+  <producedTypes>
+    <selectionType typeId="59411d91-71bc-471e-8686-f0760163dae7" valueTypeId="da27fb9a-e235-4dd7-8d6d-6ace7b60cdd4"/>
+    <listType typeId="d4d231d7-c47e-4b85-bc6a-56a03b0b1806" valueTypeId="f6332eca-d80e-450c-95e1-596e08c9f26e"/>
+    <managerType typeId="753e8aa6-aa87-4be8-8c1b-1186799d7fa8" valueTypeId="26c76e38-8809-4278-8629-6966a9119b7b"/>
+    <recordSetType typeId="25206afd-bfbc-4447-abce-9fb0fac6e771" valueTypeId="c9b3e30a-5c4f-46c6-89ad-cbf3eaeb6a3b"/>
+    <recordKeyType typeId="d019e6eb-6949-4097-81ec-35e3f63c7dbf" valueTypeId="07b77cba-aaf4-4098-b6e1-e68898988dec"/>
+    <recordType typeId="27424bc9-2b0f-4530-ba22-ba07b9d934c2" valueTypeId="ca1aec9d-cf7f-4eb3-88ab-a7da0eb3f5dd"/>
+    <recordManagerType typeId="c8119fea-17b5-4774-a4f7-af6f8c2fb5c3" valueTypeId="51e25e50-2a77-405a-a78e-753a0d7638b9"/>
+  </producedTypes>
+  <name>ДанныеПоЗаданиямПоПрокладкеКабелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по заданиям по прокладке кабелей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4a4b9691-7782-4db6-96f9-59dee6188fd9">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаданий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e605e0f5-54e4-4000-a7ee-a180b4f84ee1">
+    <name>ЖурналУчетаКабельнойЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной линии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1bdec69b-e3ad-4360-adaf-a6ae7a287db1">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

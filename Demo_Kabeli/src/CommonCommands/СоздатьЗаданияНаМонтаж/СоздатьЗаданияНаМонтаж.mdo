@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47432331-5de5-4549-ace8-cc59021c17f5">
+  <name>СоздатьЗаданияНаМонтаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать задания на монтаж</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b75466f-bdd1-4681-8ffc-fb8657cb81d0">
+  <producedTypes>
+    <objectType typeId="de994eea-cef3-459e-b3b7-974577cadd9b" valueTypeId="ae02f60f-c6a5-4674-bf26-1a323d226c37"/>
+    <refType typeId="d196f031-c6f3-456f-8d56-c06bba636fcf" valueTypeId="f7d76467-ada5-4e7b-90aa-6167d6f43fed"/>
+    <selectionType typeId="d91f1b00-c1d0-4727-9f80-fab5f7a465ca" valueTypeId="cd9801c4-e176-487f-88a6-f07c2fbe75ea"/>
+    <listType typeId="e722385c-1543-40ac-a61a-0e201d3dd4d4" valueTypeId="ecbde03e-7bb0-4a60-bc67-fccd557645ac"/>
+    <managerType typeId="d1527fb6-44cc-40ff-a9e9-4b8f37511fe5" valueTypeId="d348ece1-8ed9-4717-a051-58c9808674ed"/>
+  </producedTypes>
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Проекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="687be518-6e36-4d31-aaf1-ac6652ac4d69">
+    <name>НомерПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер проекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb4a767d-4428-46f7-90f9-17a2d190c69d">
+    <name>АрхивныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

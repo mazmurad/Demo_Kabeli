@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b11bb40-f713-4b1d-9a5d-801ae5e4c574">
+  <producedTypes>
+    <selectionType typeId="0ee0ee82-c229-40c5-b396-1fef640af59c" valueTypeId="f65cb535-e906-4ee4-87d5-b4d6dcd678c1"/>
+    <listType typeId="d5409fe6-0900-42e7-938e-ba3738f2e926" valueTypeId="58060a9d-e8dc-4bca-a926-251c630a707f"/>
+    <managerType typeId="d4c7be99-f4ce-4c08-a76d-679562247077" valueTypeId="10d3b935-e31e-4b8a-adb9-a65d49b76221"/>
+    <recordSetType typeId="89bc21ca-a492-4dea-b8b8-db5a57b4e1f3" valueTypeId="9062586d-fd5d-4fbb-88e7-b6e2df5f6e82"/>
+    <recordKeyType typeId="76d28664-7356-4f56-898b-6aaa31f226e4" valueTypeId="333730fe-7583-4b8e-8351-4b2acec73e2a"/>
+    <recordType typeId="40dc4abc-3175-498d-a8d7-8acdca64464b" valueTypeId="2c321776-4f6b-4bff-b841-2ffb11d99c88"/>
+    <recordManagerType typeId="d2c652c2-df5e-4bf5-a24d-b012a9e5373f" valueTypeId="3e6a21bd-b759-43a3-b772-f1e683d2c601"/>
+  </producedTypes>
+  <name>ДанныеПоМонтажуКабельнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по монтажу кабельной продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fdeb8394-8bba-48ac-be2c-bf058d453ec5">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыМонтажа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c154e079-7cae-4759-be24-74f4093743d2">
+    <name>ДлинаФактическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина фактическая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="1d7d2fa4-dbc8-40ec-893b-5e1676ac36e0">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="863c53be-ed6a-4041-a875-998d2edd6900">
+    <name>ЖурналУчетаКабельнойЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной линии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7d97b7ae-59d3-4a0f-816e-1fcd7a1820d7">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

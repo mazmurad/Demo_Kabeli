@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c619264-23c9-4f85-ab7d-4708ad30192f">
+  <producedTypes>
+    <objectType typeId="e7528cf4-98c8-467f-8378-d093b7bcdc44" valueTypeId="b0501b63-69c4-4042-9028-bca581cc154b"/>
+    <managerType typeId="ea48b933-2a01-4a27-91eb-ca027c5a5aec" valueTypeId="aab4e0a7-6fa0-4a78-b56a-78393f6f52cf"/>
+  </producedTypes>
+  <name>ЗагрузкаЖурналУчетаКабельнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка журнал учета кабельной продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЖурналУчетаКабельнойПродукции.Form.Форма</defaultForm>
+  <attributes uuid="f2b23c48-00bd-4c98-b843-2a1c86217aee">
+    <name>ДанныеИзФайлаЭксель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные из файла эксель</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9f8ed312-8824-43d9-82ce-c4a50e7c0d6c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

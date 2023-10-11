@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a2af5cd-2348-49a3-8339-76ffb4853de8">
+  <producedTypes>
+    <selectionType typeId="13b042c6-335d-44d7-a9a1-47e0c5f6abfe" valueTypeId="6395af80-6b8b-4240-9db7-4e978c18db55"/>
+    <listType typeId="9e21e9e7-ae1b-4db1-9b0f-c066f3c53696" valueTypeId="87757244-542f-4eb9-a3fb-a79406423ffa"/>
+    <managerType typeId="8656899b-b4e8-4e62-bfb6-16a157201b51" valueTypeId="e4c8ed63-851b-46aa-be2c-866c803e4be9"/>
+    <recordSetType typeId="0ecb0a7e-d94f-4d84-94a6-65b94f71d3a1" valueTypeId="b648affb-2c77-42e2-b861-5c0bcbc66e3b"/>
+    <recordKeyType typeId="e7f8f40c-5efa-4cf4-8fc5-ecc5d64defd3" valueTypeId="09346497-22ba-4641-8663-3c830ecf19fb"/>
+    <recordType typeId="55794790-a4ca-4c59-9917-93c990c15151" valueTypeId="2b472b58-c25f-4998-96ee-91f4bfdb20fa"/>
+    <recordManagerType typeId="dc4353bf-3661-4902-903b-959f69c8f60b" valueTypeId="5000d935-ee98-44c9-be8a-00ea4774d197"/>
+  </producedTypes>
+  <name>ДанныеПоЗаявкамНаЗакупку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по заявкам на закупку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="762a587d-7c7f-4ff3-a8d4-7b81e38483cb">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаявок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="80a25c45-4e48-4ba0-8b40-a102df379034">
+    <name>НомерЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер заявки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="95fa0e88-2e57-400d-932c-f76cd9ac70fa">
+    <name>ДатаЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заявки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ffef920-0809-4227-af34-8c1a98336244">
+    <name>НомерВходногоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер входного контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="12b92018-3dad-4bc0-9bba-1fa1c09b064f">
+    <name>ЖурналУчетаКабельнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f67289d9-a9ec-48cb-bc8e-4a8e414200a6">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

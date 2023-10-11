@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4806217e-5b22-44eb-9229-9494117be1fb">
+  <producedTypes>
+    <objectType typeId="c9b86072-b087-4208-9df4-f34efb51c636" valueTypeId="0d5ab517-cb9b-44d5-9704-a4a5fac25783"/>
+    <refType typeId="7a5c185f-fdff-4276-90f4-985ce919bf79" valueTypeId="cdb2fc0b-f7e3-41dc-8414-4389bbe3e45f"/>
+    <selectionType typeId="1d80e039-9d4d-49d4-a572-e0d47781799e" valueTypeId="6c5b3def-c8ba-4281-afbc-28a53ebd5da0"/>
+    <listType typeId="3fd543a7-916b-40f3-a834-ecc96fcd42a7" valueTypeId="2fdd5031-ed7d-4b7c-a813-55063d41e34c"/>
+    <managerType typeId="adb8fc87-70a0-4a46-8d14-8c241194c09d" valueTypeId="78435b30-e728-4aae-ac0e-4b7f8584b990"/>
+  </producedTypes>
+  <name>ЗаданияНаМонтаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на монтаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаданияНаМонтаж.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.ЖурналыУчетаКабельнойПродукции</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаданияНаМонтаж.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаданияНаМонтаж.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.ДанныеПоЗаданиямПоПрокладкеКабелей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1f5f3e34-432f-41d4-b660-9cc66ed29a99">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ea2a600-4043-4102-9ebd-7282c721a22a">
+    <name>ЖурналУчетаКабельнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ada7c9d4-91fa-4df3-a886-bfc21bfb841f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c3907b7-b2ef-4ad2-a031-f35cf1a1b53b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

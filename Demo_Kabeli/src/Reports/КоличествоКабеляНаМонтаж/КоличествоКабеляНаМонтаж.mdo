@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e936350-7c96-4ed6-ba34-cda3ad45e019">
+  <producedTypes>
+    <objectType typeId="3f237d48-61f8-45eb-88b5-cb6fae399925" valueTypeId="55a3012a-3447-41e0-bfae-57975e00544e"/>
+    <managerType typeId="d980b821-ebd1-45b1-87f2-ac7fe4b5a9a3" valueTypeId="11a58233-9aad-4cc0-a523-33d9452ea03c"/>
+  </producedTypes>
+  <name>КоличествоКабеляНаМонтаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество кабеля на монтаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КоличествоКабеляНаМонтаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="492747c0-3bf8-4db6-ac3c-4c4cc1324411">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

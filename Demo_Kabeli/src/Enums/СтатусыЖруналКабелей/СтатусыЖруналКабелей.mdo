@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95726e0d-8670-4d78-bdb5-d3977f3439e8">
+  <producedTypes>
+    <refType typeId="1fc20c21-e3c0-4caa-8c52-35a155645217" valueTypeId="881dc0e0-393e-4c8a-9126-1b90006589ac"/>
+    <listType typeId="9a57667e-ede4-4503-9cb9-14181c3b4b69" valueTypeId="138651ac-44ea-41cd-b6ab-625b58410870"/>
+    <managerType typeId="0fafb8ae-5246-4bd6-940a-1f8793261c28" valueTypeId="45b26dd6-c202-4dd6-b04d-c6dd9b4cc5da"/>
+  </producedTypes>
+  <name>СтатусыЖруналКабелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы жрунал кабелей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78a0c32d-447c-4e39-a97b-e3ea75a24af2">
+    <name>Подписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d99409cb-a117-48f1-b0e5-9422ebb98fa6">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c36bcba-378e-43fe-aac0-cbd3927d17c5">
+    <name>Подготовлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

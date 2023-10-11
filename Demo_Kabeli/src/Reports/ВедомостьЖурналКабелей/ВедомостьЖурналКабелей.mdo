@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e268b40-8cb2-4348-9b6b-61ed041038fb">
+  <producedTypes>
+    <objectType typeId="f242a4ac-67a3-44bb-99c9-08e5ec144d2f" valueTypeId="8a5fafbe-6eb3-4a5e-88c0-94a3536dc878"/>
+    <managerType typeId="f2112154-473b-4463-bdea-a4070bccaa27" valueTypeId="193305a9-1592-4494-9064-a8606b3d8c53"/>
+  </producedTypes>
+  <name>ВедомостьЖурналКабелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость журнал кабелей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьЖурналКабелей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d6e326da-a906-4b71-a458-d88625924d8d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
