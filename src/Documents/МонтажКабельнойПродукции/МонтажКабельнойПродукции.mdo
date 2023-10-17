@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe2233ac-5788-452f-847e-a12f0b54c01c">
+  <producedTypes>
+    <objectType typeId="c26c4cea-4531-4659-881b-e03c4c2f31d3" valueTypeId="72384e8c-a178-445f-a7e4-bd5bd2438888"/>
+    <refType typeId="f74fbd2a-a6f9-4b9a-80f5-7409123a6b66" valueTypeId="2ff0df74-5486-44a8-b61d-593a9d9b3200"/>
+    <selectionType typeId="e1e025d3-2989-4413-a302-6834aaa527e4" valueTypeId="1eca02ac-83cb-4af1-b73d-5411d486568a"/>
+    <listType typeId="713e04de-99f7-4cd9-8e36-8cb034ce8a62" valueTypeId="9518f98b-b0f6-4486-921a-0c3f605c9e72"/>
+    <managerType typeId="85598e76-71f7-4bbc-bceb-1683a440d24c" valueTypeId="544ddbaa-836b-4776-9eec-1c198a5767f9"/>
+  </producedTypes>
+  <name>МонтажКабельнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монтаж кабельной продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.МонтажКабельнойПродукции.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗаявкиНаЗакупки</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.МонтажКабельнойПродукции.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.МонтажКабельнойПродукции.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.ДанныеПоМонтажуКабельнойПродукции</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="73d72d63-72b0-40dd-bd15-f54ea01ec3a0">
+    <name>ОтчетОМонтаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о монтаже</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6bcd2f9d-228d-4cdb-a200-8fbccf5effd5">
+    <name>ДатаИКЖЧерновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ИКЖ(черновик)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cec46dab-4227-446f-9535-76eeca9b981e">
+    <name>ДатаОтчетаОМонтаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета о монтаже</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfb27286-5fa9-430a-9c82-7f7a84706c17">
+    <name>ЖурналУчетаКабельнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fbbf7dd-cee5-42f1-81eb-dd34cc0cda0e">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыМонтажа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38e46f9e-31da-46f0-a9ef-c3004e299aa9">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15bbc83e-4bb6-4752-8d25-4adff4ffb2da">
+    <name>ДлинаФактическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина фактическая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39f17004-4b6a-49bc-b1d0-3bf5428a7d36">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="772f1371-3d43-4d70-b1d0-3a90814651e0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8157ee36-fb60-421a-a64a-0edb411e5439">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

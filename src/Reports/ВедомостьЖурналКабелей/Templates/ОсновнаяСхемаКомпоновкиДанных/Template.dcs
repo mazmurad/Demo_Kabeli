@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Z</dataPath>
+			<field>Z</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаркировкаКабеля</dataPath>
+			<field>МаркировкаКабеля</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объект</dataPath>
+			<field>Объект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПП</dataPath>
+			<field>НомерПП</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер ПП</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПроекта</dataPath>
+			<field>НомерПроекта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаркировкаКабеляПроектная</dataPath>
+			<field>МаркировкаКабеляПроектная</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Обозначение1</dataPath>
+			<field>Обозначение1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>X</dataPath>
+			<field>X</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АрхивныйНомер</dataPath>
+			<field>АрхивныйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерНитки</dataPath>
+			<field>НомерНитки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СечениеПроектное</dataPath>
+			<field>СечениеПроектное</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлассБезопасности</dataPath>
+			<field>КлассБезопасности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОткудаПомещение</dataPath>
+			<field>ОткудаПомещение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Z1</dataPath>
+			<field>Z1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОткудаОборудование</dataPath>
+			<field>ОткудаОборудование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Обозначение</dataPath>
+			<field>Обозначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Y</dataPath>
+			<field>Y</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КудаПомещение</dataPath>
+			<field>КудаПомещение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КудаОборудование</dataPath>
+			<field>КудаОборудование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>X1</dataPath>
+			<field>X1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Y1</dataPath>
+			<field>Y1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлинаПроекта</dataPath>
+			<field>ДлинаПроекта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтапСтроительства</dataPath>
+			<field>ЭтапСтроительства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИКЖ</dataPath>
+			<field>ДатаИКЖ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗаявкиПодтверждения</dataPath>
+			<field>НомерЗаявкиПодтверждения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗаявкиПодтверждения</dataPath>
+			<field>ДатаЗаявкиПодтверждения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерИКЖ</dataPath>
+			<field>НомерИКЖ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОригиналИКЖ</dataPath>
+			<field>ОригиналИКЖ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Примечание</dataPath>
+			<field>Примечание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлинаФактическая</dataPath>
+			<field>ДлинаФактическая</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлинаАннулировано</dataPath>
+			<field>ДлинаАннулировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОперации</dataPath>
+			<field>ДатаОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Трассировка</dataPath>
+			<field>Трассировка</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗаявки</dataPath>
+			<field>ДатаЗаявки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗадания</dataPath>
+			<field>ДатаЗадания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусЗаявкиНаЗакупку</dataPath>
+			<field>СтатусЗаявкиНаЗакупку</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус заявки на закупку</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИКЖЧерновик</dataPath>
+			<field>ДатаИКЖЧерновик</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОтчетаОМонтаже</dataPath>
+			<field>ДатаОтчетаОМонтаже</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗаявки</dataPath>
+			<field>НомерЗаявки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерВходногоКонтроля</dataPath>
+			<field>НомерВходногоКонтроля</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусЗадания</dataPath>
+			<field>СтатусЗадания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус задания</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗадания</dataPath>
+			<field>НомерЗадания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомуВыдано</dataPath>
+			<field>КомуВыдано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыдачиВМонтаж</dataPath>
+			<field>ДатаВыдачиВМонтаж</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтчетОМонтаже</dataPath>
+			<field>ОтчетОМонтаже</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ПроложенныеЖурналыКабелей.Код КАК НомерПП,
+	ПроложенныеЖурналыКабелей.Проект.НомерПроекта КАК НомерПроекта,
+	ПроложенныеЖурналыКабелей.Проект.АрхивныйНомер КАК АрхивныйНомер,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.Объект КАК Объект,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.НомерНитки КАК НомерНитки,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.МаркировкаКабеля КАК МаркировкаКабеля,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.МаркировкаКабеляПроектная КАК МаркировкаКабеляПроектная,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.СечениеПроектное КАК СечениеПроектное,
+	ПроложенныеЖурналыКабелей.КабельнаяЛиния.КлассБезопасности КАК КлассБезопасности,
+	ПроложенныеЖурналыКабелей.ОткудаПомещение КАК ОткудаПомещение,
+	ПроложенныеЖурналыКабелей.ОткудаОборудование КАК ОткудаОборудование,
+	ПроложенныеЖурналыКабелей.ОткудаОборудование.Обозначение КАК Обозначение,
+	ПроложенныеЖурналыКабелей.ОткудаКоординаты.X КАК X,
+	ПроложенныеЖурналыКабелей.ОткудаКоординаты.Y КАК Y,
+	ПроложенныеЖурналыКабелей.ОткудаКоординаты.Z КАК Z,
+	ПроложенныеЖурналыКабелей.КудаПомещение КАК КудаПомещение,
+	ПроложенныеЖурналыКабелей.КудаОборудование КАК КудаОборудование,
+	ПроложенныеЖурналыКабелей.КудаОборудование.Обозначение КАК Обозначение1,
+	ПроложенныеЖурналыКабелей.КудаКоординаты.X КАК X1,
+	ПроложенныеЖурналыКабелей.КудаКоординаты.Y КАК Y1,
+	ПроложенныеЖурналыКабелей.КудаКоординаты.Z КАК Z1,
+	ПроложенныеЖурналыКабелей.ДлинаПроекта КАК ДлинаПроекта,
+	ПроложенныеЖурналыКабелей.ДлинаФактическая КАК ДлинаФактическая,
+	ПроложенныеЖурналыКабелей.ДлинаАннулировано КАК ДлинаАннулировано,
+	ПроложенныеЖурналыКабелей.Трассировка КАК Трассировка,
+	ПроложенныеЖурналыКабелей.Статус КАК Статус,
+	ПроложенныеЖурналыКабелей.НомерЗаявкиПодтверждения КАК НомерЗаявкиПодтверждения,
+	ПроложенныеЖурналыКабелей.ДатаЗаявкиПодтверждения КАК ДатаЗаявкиПодтверждения,
+	ПроложенныеЖурналыКабелей.НомерИКЖ КАК НомерИКЖ,
+	ПроложенныеЖурналыКабелей.ДатаИКЖ КАК ДатаИКЖ,
+	ПроложенныеЖурналыКабелей.ОригиналИКЖ КАК ОригиналИКЖ,
+	ПроложенныеЖурналыКабелей.ЭтапСтроительства КАК ЭтапСтроительства,
+	ПроложенныеЖурналыКабелей.Примечание КАК Примечание,
+	ПроложенныеЖурналыКабелей.ДатаОперации КАК ДатаОперации,
+	СтатусыЗаданийПоПрокладкеКабелей.Статус КАК СтатусЗадания,
+	СтатусыЗаданийПоПрокладкеКабелей.НомерЗадания КАК НомерЗадания,
+	СтатусыЗаданийПоПрокладкеКабелей.ДатаЗадания КАК ДатаЗадания,
+	СтатусыЗаданийПоПрокладкеКабелей.КомуВыдано КАК КомуВыдано,
+	СтатусыЗаявокНаЗакупку.Статус КАК СтатусЗаявкиНаЗакупку,
+	СтатусыЗаявокНаЗакупку.НомерЗаявки КАК НомерЗаявки,
+	СтатусыЗаявокНаЗакупку.ДатаЗаявки КАК ДатаЗаявки,
+	СтатусыЗаявокНаЗакупку.НомерВходногоКонтроля КАК НомерВходногоКонтроля,
+	ПроложенныеЖурналыКабелей.ДатаВыдачиВМонтаж КАК ДатаВыдачиВМонтаж,
+	ПроложенныеЖурналыКабелей.ДатаОтчетаОМонтаже КАК ДатаОтчетаОМонтаже,
+	ПроложенныеЖурналыКабелей.ДатаИКЖЧерновик КАК ДатаИКЖЧерновик,
+	ПроложенныеЖурналыКабелей.ОтчетОМонтаже КАК ОтчетОМонтаже
+ИЗ
+	РегистрСведений.ПроложенныеЖурналыКабелей КАК ПроложенныеЖурналыКабелей
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтатусыЗаданийПоПрокладкеКабелей КАК СтатусыЗаданийПоПрокладкеКабелей
+		ПО ПроложенныеЖурналыКабелей.КабельнаяЛиния = СтатусыЗаданийПоПрокладкеКабелей.КабельнаяЛиния
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтатусыЗаявокНаЗакупку КАК СтатусыЗаявокНаЗакупку
+		ПО ПроложенныеЖурналыКабелей.КабельнаяЛиния = СтатусыЗаявокНаЗакупку.КабельнаяЛиния
+ГДЕ
+	ПроложенныеЖурналыКабелей.ДатаОперации МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания</query>
+	</dataSet>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ВедомостьЖурналКабелей</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Журналы кабелей</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерПП</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ П/П</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерПроекта</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ проекта</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АрхивныйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Объект</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерНитки</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ нитки</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаркировкаКабеля</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаркировкаКабеляПроектная</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СечениеПроектное</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлассБезопасности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОткудаПомещение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОткудаОборудование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Обозначение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>X</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Y</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Z</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КудаПомещение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КудаОборудование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Обозначение1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>X1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Y1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Z1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлинаПроекта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлинаФактическая</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлинаАннулировано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Трассировка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗадания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаЗадания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомуВыдано</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗаявки</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ Заявка на закупку</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаЗаявки</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заявки на закупку</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусЗаявкиНаЗакупку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерВходногоКонтроля</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ ВК на КПП</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВыдачиВМонтаж</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтчетОМонтаже</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОтчетаОМонтаже</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИКЖЧерновик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗаявкиПодтверждения</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ заявки на предъявление выполненных ЭМР</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаЗаявкиПодтверждения</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заявки на предъявление выполненных ЭМР</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статус</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтверждение выполнения монтажа</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерИКЖ</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ ИКЖ</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИКЖ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОригиналИКЖ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭтапСтроительства</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Примечание</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>b16e08d7-6c95-418a-959f-e847522b28d0</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЖруналКабелей.Отклонен</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#FF6FAC</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЖруналКабелей.Подписан</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#339966</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

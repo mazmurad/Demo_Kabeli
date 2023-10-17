@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed15325f-e5f0-417b-ad98-789fe2125fbd">
+  <producedTypes>
+    <objectType typeId="d897367d-f2cd-49c2-851e-30b860d62d87" valueTypeId="1d287af0-34a6-44dc-ab55-4cfafae77bf3"/>
+    <managerType typeId="90e46c93-dc1e-4e01-b65e-633010d0d8f2" valueTypeId="838ae1af-f424-4197-94ce-4bde222778b8"/>
+  </producedTypes>
+  <name>ИнтерфейсРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс рабочего места</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтерфейсРабочегоМеста.Form.Форма</defaultForm>
+  <attributes uuid="0d8b57eb-f9dc-430c-a1a8-5e4b085d9c05">
+    <name>ЖурналУчетаКабельнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета кабельной продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0387f7d5-f2c4-40e2-914a-148d73ecb416">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a10d6b88-52a6-4da1-92d3-ca970f426eec">
+    <name>КабельнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельная линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельныеЛинии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a40e461a-71c0-42b3-bb02-ef007fc6d33a">
+    <name>Изм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изм</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="823661e1-5ded-4bc6-968f-5ee54404a412">
+    <name>ОткудаПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откуда помещение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b525d7b3-64b3-4d52-9c5c-30eca1e8ba23">
+    <name>ОткудаОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откуда оборудование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4958681-6f99-4bc5-9dc2-1522ec9a1d75">
+    <name>ОткудаКоординаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Откуда координаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Координаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b73fb818-1420-4955-83f2-0ee314c9df61">
+    <name>КудаПомещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куда помещение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8040778a-b3ca-45e1-b7ef-2b466a0412df">
+    <name>КудаОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куда оборудование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e171caa9-9e22-46da-b455-dc3c17a620c7">
+    <name>КудаКоординаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Куда координаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Координаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="978c2786-3d89-4953-8f91-7469a1a1b873">
+    <name>ДлинаПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина проекта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c95a530e-8d02-48c2-806d-99553eeb1796">
+    <name>НомерПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="890d5902-1094-4098-887a-7509a405dbf3">
+    <name>РазрешитьМонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить монтаж</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ec3701c-10ca-42eb-9d0b-b07bb47266c6">
+    <name>НомерВК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ВК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2eeaa11-b9e0-4ff9-ad37-ce91ff807ac0">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2d780dff-3985-409d-bfe8-8d3c36891ef8">
+    <name>ФайлКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл картинки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукцииПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8f174d16-e154-44bb-bc0a-3873aa1830b7">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="6be7a9c8-6527-47f6-9b17-a0d17738fcde">
+    <producedTypes>
+      <objectType typeId="b6553e38-fb3a-47bd-bf24-6a3645e6eac8" valueTypeId="c0a47e90-ae40-4b8e-9908-ac60f1f3d33a"/>
+      <rowType typeId="4ef0c392-dbba-4a3c-bbc4-cc32c42273c4" valueTypeId="cb53778b-1fc6-4149-b107-342333a59df5"/>
+    </producedTypes>
+    <name>ЗаданияНаМонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задания на монтаж</value>
+    </synonym>
+    <attributes uuid="c2078acd-37cd-4a47-8d36-5d3b097f9bb1">
+      <name>Задание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задание</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаданияНаМонтаж</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a227bbc7-1b8d-4464-bbb9-8a483b46eac2">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6390888-42b9-4bc7-9f2a-33b254b0882d">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыЗаданийНаЗакупку</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3e950409-7906-4409-bc92-8d769e64ed35">
+    <producedTypes>
+      <objectType typeId="734222e3-4602-4621-8503-60671971f52d" valueTypeId="c76fccac-dca8-4e77-b06e-0ac027fa06ac"/>
+      <rowType typeId="ef94b874-eb2e-4f88-bf2f-9d47e4cc5a62" valueTypeId="7a7e1435-279b-47f4-bdb0-4cde85baa71a"/>
+    </producedTypes>
+    <name>ЗаявкиНаЗакупку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки на закупку</value>
+    </synonym>
+    <attributes uuid="7f256188-3f84-4e9b-b141-9c94a4235c7c">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаявкиНаЗакупки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f3f17cfb-0646-4907-bc2a-0850353f0701">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="aab0ec3f-b22d-437d-9879-22983118bbd0">
+    <producedTypes>
+      <objectType typeId="f2d16a18-5c37-400a-bfb5-d9aa7bc6e440" valueTypeId="2088d7e9-d137-49a9-907c-7ce88bda0344"/>
+      <rowType typeId="449538ba-dfbb-4e63-ae14-a5e1ff9a4371" valueTypeId="a899c1b5-2fe8-4470-8a48-72d5e7cee123"/>
+    </producedTypes>
+    <name>МонтажныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтажные работы</value>
+    </synonym>
+    <attributes uuid="19903add-7c30-4b17-bf6b-551e0471cf7c">
+      <name>Монтаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Монтаж</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.МонтажКабельнойПродукции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e7038018-6cf7-403c-ba5a-0737fa7faa35">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cde575bc-402f-4489-92e6-6a36c620350b">
+    <producedTypes>
+      <objectType typeId="9422547b-ae50-4497-a5ba-e30c30aded56" valueTypeId="922283eb-f722-4020-bffc-50de8a0f34e0"/>
+      <rowType typeId="23d92f32-688f-41eb-b40b-301f746986fc" valueTypeId="2733a1bd-c3e9-4740-8b33-5a2f03b3080c"/>
+    </producedTypes>
+    <name>ЗаявкиНаПредъявлениеВыполненныхЭМР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки на предъявление выполненных ЭМР</value>
+    </synonym>
+    <attributes uuid="16137753-41be-45c5-9f8f-0c46597276ed">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаявкиНаПредъявлениеВыполненныхЭМР</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ffefed02-f750-4434-9584-76bbb71d549c">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="96ea8735-735d-4512-b6f9-6c0bd9a8933c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

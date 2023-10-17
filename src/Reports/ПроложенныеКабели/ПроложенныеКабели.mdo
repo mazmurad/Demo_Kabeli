@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d09145c-3df3-4d14-8d8d-4dadeb0c410d">
+  <producedTypes>
+    <objectType typeId="89cf8dac-127b-4828-af34-643aa0fe7445" valueTypeId="73adce80-f843-4c78-98c7-8a77f26c77aa"/>
+    <managerType typeId="b82787cb-3739-4f58-843c-7d21c10a3558" valueTypeId="40782d1b-469e-4a04-a514-b726d9099439"/>
+  </producedTypes>
+  <name>ПроложенныеКабели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проложенные кабели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПроложенныеКабели.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9c44f062-7ef9-4c8b-8172-87a225d9eb9a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

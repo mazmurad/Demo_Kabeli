@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64987c56-9309-441e-bad3-ffd8b999e9e6">
+  <name>РаботыПоМонтажу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы по монтажу</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РаботыУслуги</picture>
+  </picture>
+  <content>Catalog.КабельныеЛинии</content>
+  <content>Document.МонтажКабельнойПродукции</content>
+  <content>Report.КоличествоКабеляНаМонтаж</content>
+</mdclass:Subsystem>

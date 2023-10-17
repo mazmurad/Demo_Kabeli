@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09de26a6-e9a8-4981-a06e-8102b7d49f0f">
+  <name>СлужебныеСистемныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные системные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ДанныеПоЖурналамКабельнойПродукции</content>
+  <content>Enum.СтатусыЖруналКабелей</content>
+  <content>InformationRegister.ДанныеПоЗаданиямПоПрокладкеКабелей</content>
+  <content>Enum.СтатусыЗаданийНаЗакупку</content>
+  <content>InformationRegister.ДанныеПоЗаявкамНаЗакупку</content>
+  <content>Enum.СтатусыЗаявок</content>
+  <content>Enum.СтатусыМонтажа</content>
+  <content>InformationRegister.ДанныеПоМонтажуКабельнойПродукции</content>
+  <content>Report.ВедомостьПоКонтролюВК</content>
+  <content>Report.ПроложенныеКабели</content>
+  <content>InformationRegister.ОтветственныеЛица</content>
+  <content>Catalog.ФизическиеЛицаПрисоединенныеФайлы</content>
+  <content>Catalog.КабельнаяНитка</content>
+  <content>Catalog.КабельнаяНиткаПрисоединенныеФайлы</content>
+  <content>EventSubscription.ЗаписатьВерсиюДокумента</content>
+  <content>DataProcessor.ЗагрузкаЖурналУчетаКабельнойПродукции</content>
+</mdclass:Subsystem>
