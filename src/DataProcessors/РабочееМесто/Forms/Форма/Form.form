@@ -918,6 +918,10 @@
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеОткудаОборудование</name>
       <id>241</id>
+      <title>
+        <key>ru</key>
+        <value> </value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
