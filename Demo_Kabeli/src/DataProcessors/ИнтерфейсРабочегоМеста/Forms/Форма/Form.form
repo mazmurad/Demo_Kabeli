@@ -567,7 +567,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.КабельнаяЛиния.НомерНитки</segments>
+                  <segments>1/0:a10d6b88-52a6-4da1-92d3-ca970f426eec/0:4c06fa73-6590-4e16-bbb7-e0ce90abe622</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>КабельнаяЛинияНомерНиткиРасширеннаяПодсказка</name>
@@ -594,22 +594,10 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:LabelFieldExtInfo">
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontRef">
-                    <font>Style.NormalTextFont</font>
-                    <height>12.0</height>
-                    <bold>true</bold>
-                    <italic>false</italic>
-                    <underline>false</underline>
-                    <strikeout>false</strikeout>
-                  </font>
-                </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>КабельнаяЛинияМаркировкаКабеля</name>
@@ -623,6 +611,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>1/0:a10d6b88-52a6-4da1-92d3-ca970f426eec/0:5fab18cb-7828-40b3-a4d1-e06805e83d55</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>КабельнаяЛинияМаркировкаКабеляРасширеннаяПодсказка</name>
                   <id>32</id>
@@ -849,7 +840,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.КабельнаяЛиния.Объект</segments>
+                  <segments>1/0:a10d6b88-52a6-4da1-92d3-ca970f426eec/0:14aae7ae-18dc-4fed-9e2d-fbfccf55fd7c</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>КабельнаяЛинияОбъектРасширеннаяПодсказка</name>
@@ -876,22 +867,10 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:LabelFieldExtInfo">
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <font xsi:type="core:FontRef">
-                    <font>Style.NormalTextFont</font>
-                    <height>12.0</height>
-                    <bold>true</bold>
-                    <italic>false</italic>
-                    <underline>false</underline>
-                    <strikeout>false</strikeout>
-                  </font>
-                </extInfo>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>

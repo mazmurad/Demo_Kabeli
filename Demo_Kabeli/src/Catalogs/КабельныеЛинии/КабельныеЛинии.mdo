@@ -77,10 +77,6 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <synonym>
-      <key>ru</key>
-      <value>Маркировка кабеля</value>
-    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -104,6 +100,7 @@
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ЖурналыУчетаКабельнойПродукции</owners>
   <codeLength>9</codeLength>
   <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
@@ -115,52 +112,13 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.КабельныеЛинии.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="d801b6a6-3ac2-4ed9-bef3-82534dcecd87">
-    <name>Номенклатура</name>
+    <name>Нитка</name>
     <synonym>
       <key>ru</key>
-      <value>Номенклатура</value>
+      <value>Нитка</value>
     </synonym>
     <type>
-      <types>CatalogRef.Номенклатура</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="14aae7ae-18dc-4fed-9e2d-fbfccf55fd7c">
-    <name>Объект</name>
-    <synonym>
-      <key>ru</key>
-      <value>Объект</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>50</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4c06fa73-6590-4e16-bbb7-e0ce90abe622">
-    <name>НомерНитки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Номер нитки</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>CatalogRef.КабельнаяНитка</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

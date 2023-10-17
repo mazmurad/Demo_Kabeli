@@ -71,7 +71,10 @@
       <value>Откуда помещение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Помещения</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -83,7 +86,10 @@
       <value>Откуда оборудование</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыОборудования</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -107,7 +113,10 @@
       <value>Куда помещение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Помещения</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -119,7 +128,10 @@
       <value>Куда оборудование</value>
     </synonym>
     <type>
-      <types>CatalogRef.ТипыОборудования</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -273,7 +285,7 @@
         <value>Статус</value>
       </synonym>
       <type>
-        <types>EnumRef.СтатусыЗаданий</types>
+        <types>EnumRef.СтатусыЗаданийНаЗакупку</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

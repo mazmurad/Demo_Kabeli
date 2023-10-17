@@ -344,7 +344,10 @@
       <value>Трассировка</value>
     </synonym>
     <type>
-      <types>CatalogRef.Трассировка</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

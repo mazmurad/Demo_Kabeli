@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="538d8f3d-7016-4abc-9b93-99c7f563b8ec">
+  <producedTypes>
+    <refType typeId="effd242f-a964-46df-8cee-f7733088eb50" valueTypeId="24b62d24-1acc-415f-b34b-ef19c5c72bbb"/>
+    <listType typeId="fb0c6e21-0427-4b56-9d0e-e92e95a2997f" valueTypeId="a1aab0a7-5158-4749-b14c-fe5c85fc17b5"/>
+    <managerType typeId="51435b60-f5d6-4f82-9e92-b6f54146a373" valueTypeId="e5ea7de7-9cb5-419e-b9cc-042ddad4878d"/>
+  </producedTypes>
+  <name>СтатусыЗаданийНаЗакупку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заданий на закупку</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1dedc53e-f234-4838-b712-a6d1a85b30bf">
+    <name>ВыданоПодрядчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдано подрядчику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76c0274a-434a-4947-9ac8-f44770885b8d">
+    <name>НаДоработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На доработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17e03a3b-f25a-48b8-86ac-69cd2f1c19c3">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c0ad94a-723c-49b2-b0a3-b6f4bd63bccd">
+    <name>Аннулировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулировано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

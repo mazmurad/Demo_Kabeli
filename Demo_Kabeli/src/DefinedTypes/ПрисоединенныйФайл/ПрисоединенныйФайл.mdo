@@ -13,7 +13,7 @@
     <types>CatalogRef.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.ФизическиеЛицаПрисоединенныеФайлы</types>
     <types>CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
-    <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogRef.КабельнаяНиткаПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.СообщениеSMSПрисоединенныеФайлы</types>

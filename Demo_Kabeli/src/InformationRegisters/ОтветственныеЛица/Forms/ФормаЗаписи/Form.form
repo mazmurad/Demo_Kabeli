@@ -103,6 +103,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>1/0:1a5a9b34-c359-4847-be8f-9bd71b9821af</segments>
+    </dataPath>
     <extendedTooltip>
       <name>СкладРасширеннаяПодсказка</name>
       <id>13</id>
@@ -149,6 +152,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>1/0:d39cab17-9e65-439c-ac98-4cea354720f1</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ПодразделениеРасширеннаяПодсказка</name>
       <id>14</id>

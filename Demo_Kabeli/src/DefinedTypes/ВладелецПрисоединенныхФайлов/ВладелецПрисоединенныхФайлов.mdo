@@ -19,7 +19,7 @@
     <types>DocumentRef.Встреча</types>
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>DocumentRef.СообщениеSMS</types>
-    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.КабельнаяНитка</types>
     <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>

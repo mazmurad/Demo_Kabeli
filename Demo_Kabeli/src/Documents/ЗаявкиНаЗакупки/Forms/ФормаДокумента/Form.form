@@ -340,7 +340,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.Проект</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:ea3b5336-c674-42d3-8fcb-0b34c451c4eb</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииПроектРасширеннаяПодсказка</name>
@@ -367,27 +367,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияОбъект</name>
@@ -402,7 +385,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния.Объект</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a/0:14aae7ae-18dc-4fed-9e2d-fbfccf55fd7c</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияОбъектРасширеннаяПодсказка</name>
@@ -429,27 +412,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияНомерНитки</name>
@@ -464,7 +430,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния.НомерНитки</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a/0:4c06fa73-6590-4e16-bbb7-e0ce90abe622</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияНомерНиткиРасширеннаяПодсказка</name>
@@ -491,27 +457,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияМаркировкаКабеля</name>
@@ -530,7 +479,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияМаркировкаКабеляРасширеннаяПодсказка</name>
@@ -557,27 +506,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияМаркировкаКабеляПроектная</name>
@@ -592,7 +524,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния.МаркировкаКабеляПроектная</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a/0:3816ddd8-f0ac-4444-bf1c-84dd40175f84</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияМаркировкаКабеляПроектнаяРасширеннаяПодсказка</name>
@@ -619,27 +551,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияСечениеПроектное</name>
@@ -654,7 +569,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния.СечениеПроектное</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a/0:32d4c921-f9fd-41e4-9bcf-1d9d1770fc14</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияСечениеПроектноеРасширеннаяПодсказка</name>
@@ -681,27 +596,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияКлассБезопасности</name>
@@ -716,7 +614,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЖурналУчетаКабельнойПродукции.КабельнаяЛиния.КлассБезопасности</segments>
+        <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:4987cb28-c73f-447d-8889-78aa099d8a1a/0:690bf2e5-0553-4f50-a1e8-9f7a7a7ee61e</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЖурналУчетаКабельнойПродукцииКабельнаяЛинияКлассБезопасностиРасширеннаяПодсказка</name>
@@ -743,27 +641,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <font xsi:type="core:FontRef">
-          <font>Style.NormalTextFont</font>
-          <height>12.0</height>
-          <bold>true</bold>
-          <italic>false</italic>
-          <underline>false</underline>
-          <strikeout>false</strikeout>
-        </font>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ЖурналУчетаКабельнойПродукцииИзм</name>
@@ -846,7 +727,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ОткудаПомещение</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:06668765-2822-46d7-8da1-6f7e9111a0f3</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииОткудаПомещениеРасширеннаяПодсказка</name>
@@ -873,27 +754,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииОткудаОборудование</name>
@@ -908,7 +772,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ОткудаОборудование</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:00c08970-4883-4d0a-a319-273a03942b21</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииОткудаОборудованиеРасширеннаяПодсказка</name>
@@ -935,27 +799,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыX</name>
@@ -970,7 +817,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ОткудаКоординаты.X</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:bf320dd6-e599-40c5-b342-097d27b6bd30/0:d3028075-7c57-4fb5-8a6e-4ff2d5569d75</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыXРасширеннаяПодсказка</name>
@@ -997,27 +844,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыY</name>
@@ -1032,7 +862,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ОткудаКоординаты.Y</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:bf320dd6-e599-40c5-b342-097d27b6bd30/0:49b6b7d3-8217-43ab-8dc2-54af01b8d498</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыYРасширеннаяПодсказка</name>
@@ -1059,27 +889,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыZ</name>
@@ -1094,7 +907,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ОткудаКоординаты.Z</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:bf320dd6-e599-40c5-b342-097d27b6bd30/0:e8681b8a-4d06-48fd-9c30-fdc023b57989</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииОткудаКоординатыZРасширеннаяПодсказка</name>
@@ -1121,27 +934,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1245,7 +1041,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.КудаПомещение</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:973db53c-83df-48b9-8cf4-f4abf6661f1d</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииКудаПомещениеРасширеннаяПодсказка</name>
@@ -1272,27 +1068,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииКудаОборудование</name>
@@ -1307,7 +1086,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.КудаОборудование</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:248ebe24-a632-4a3e-b7d4-85a950fd0f58</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииКудаОборудованиеРасширеннаяПодсказка</name>
@@ -1334,27 +1113,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыX</name>
@@ -1373,7 +1135,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.КудаКоординаты.X</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:1124866b-c346-4542-9b5a-cc79463f376f/0:d3028075-7c57-4fb5-8a6e-4ff2d5569d75</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыXРасширеннаяПодсказка</name>
@@ -1400,27 +1162,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыY</name>
@@ -1439,7 +1184,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.КудаКоординаты.Y</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:1124866b-c346-4542-9b5a-cc79463f376f/0:49b6b7d3-8217-43ab-8dc2-54af01b8d498</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыYРасширеннаяПодсказка</name>
@@ -1466,27 +1211,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыZ</name>
@@ -1505,7 +1233,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.КудаКоординаты.Z</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:1124866b-c346-4542-9b5a-cc79463f376f/0:e8681b8a-4d06-48fd-9c30-fdc023b57989</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииКудаКоординатыZРасширеннаяПодсказка</name>
@@ -1532,27 +1260,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ЖурналУчетаКабельнойПродукцииДлинаПроекта</name>
@@ -1567,7 +1278,7 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЖурналУчетаКабельнойПродукции.ДлинаПроекта</segments>
+            <segments>1/0:91ac7da2-301f-419f-b490-ef822ff96f78/0:72ce6c51-fa20-45f0-bcf0-799eb59701a6</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЖурналУчетаКабельнойПродукцииДлинаПроектаРасширеннаяПодсказка</name>
@@ -1594,27 +1305,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <font xsi:type="core:FontRef">
-              <font>Style.NormalTextFont</font>
-              <height>12.0</height>
-              <bold>true</bold>
-              <italic>false</italic>
-              <underline>false</underline>
-              <strikeout>false</strikeout>
-            </font>
-          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>

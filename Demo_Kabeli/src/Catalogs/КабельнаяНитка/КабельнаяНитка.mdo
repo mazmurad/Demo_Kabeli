@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d71a8b2b-1327-4a10-a4ef-255ef72e6a64">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2678af4-d845-4411-83fd-d142412d776e">
   <producedTypes>
-    <objectType typeId="a41c3783-9fd8-4c08-9388-7db85cc812d1" valueTypeId="d3e8bc4d-40df-4363-bbb6-d3efc4d2e0e0"/>
-    <refType typeId="750cd0c1-d1f6-4a22-929d-82b2ac8bb052" valueTypeId="38eabcd3-2a8b-4ff5-af24-991206355ab7"/>
-    <selectionType typeId="7cd27806-d6c5-40e8-9c76-acff990e8c71" valueTypeId="a9402911-95fa-46fc-81f5-a5e8a54efb61"/>
-    <listType typeId="cad2849d-e8f0-4598-b6fd-7694b53c1f21" valueTypeId="befcc7e0-9339-4faa-9aca-4857e74d569a"/>
-    <managerType typeId="1049d5af-cec2-4507-8ecc-3dd01a016e9b" valueTypeId="731f0147-6498-4627-94d3-7e5e2cb25623"/>
+    <objectType typeId="1acc88d3-3b95-406c-acf6-02c98c115139" valueTypeId="26767a2d-730d-4152-814a-fd36f605fb67"/>
+    <refType typeId="c5a6b675-11a9-4815-abc6-df4a869d98cf" valueTypeId="978f3bf1-f273-45a5-a537-5b19a991d086"/>
+    <selectionType typeId="d3a2172d-0f4e-471b-b7d4-aa604e1d55ff" valueTypeId="80d43a0d-a6b9-410f-bd40-012e6c8c34a5"/>
+    <listType typeId="21741a73-fb40-4493-abf5-76904a35635e" valueTypeId="71b8c6e9-d35c-4c3d-b097-6b6e4ad604a3"/>
+    <managerType typeId="f01d0008-808e-4c9f-a645-61073833fdf2" valueTypeId="6321d3f1-df05-40d9-8093-ce7d8042bc77"/>
   </producedTypes>
-  <name>Здания</name>
+  <name>КабельнаяНитка</name>
   <synonym>
     <key>ru</key>
-    <value>Здания</value>
+    <value>Кабельная нитка</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Здания.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Здания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КабельнаяНитка.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КабельнаяНитка.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -60,7 +60,7 @@
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -78,6 +78,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -95,32 +99,29 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Здание</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>25</codeLength>
   <descriptionLength>150</descriptionLength>
-  <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultChoiceForm>Catalog.Здания.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="1f3f863b-e5da-462d-9c71-3cc4b4fff0bf">
-    <name>КодKKS</name>
+  <defaultObjectForm>Catalog.КабельнаяНитка.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КабельнаяНитка.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КабельнаяНитка.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d55b272a-4575-4e9b-bb16-d6c4768e940f">
+    <name>Сечение</name>
     <synonym>
       <key>ru</key>
-      <value>Код KKS</value>
+      <value>Сечение</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>25</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -131,14 +132,37 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e5a1b701-da22-44a1-9c3c-4135221d4780">
-    <name>Подразделение</name>
+  <attributes uuid="a88c537e-c15b-4f89-b66d-3e4b6cb858f8">
+    <name>Материал</name>
     <synonym>
       <key>ru</key>
-      <value>Подразделение</value>
+      <value>Материал</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделения</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c06a2ee-fad4-4949-8498-b07c3b7eed37">
+    <name>КоличествоПроволок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество проволок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -146,11 +170,62 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="5a9987b8-e130-4691-b7b1-657e711d9fb6">
+  <attributes uuid="ac7011db-eb0d-4e6a-b36a-af32f73406aa">
+    <name>НомерНитки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер нитки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7463007b-225f-4bd0-b50b-1082325ee012">
+    <name>ФайлКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл картинки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельнаяНиткаПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="00018bc8-6630-42ca-872f-5208a254fb40">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f7d9b75-a017-44c3-aa57-425bb8560191">
     <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9939fb10-0c88-4a1b-93a0-79ef8a7190ba">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

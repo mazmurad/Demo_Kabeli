@@ -10,7 +10,7 @@
   </synonym>
   <type>
     <types>CatalogObject.ПапкиФайлов</types>
-    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.КабельнаяНитка</types>
     <types>CatalogObject.ШаблоныСообщений</types>
     <types>BusinessProcessObject.Задание</types>
     <types>CatalogObject.ЖурналыУчетаКабельнойПродукции</types>

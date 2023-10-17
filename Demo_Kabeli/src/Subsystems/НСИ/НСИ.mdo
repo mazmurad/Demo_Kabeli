@@ -12,13 +12,11 @@
   </picture>
   <content>CommonPicture.НормативноСправочнаяИнформация</content>
   <content>Catalog.КабельныеЛинии</content>
-  <content>Catalog.Помещения</content>
-  <content>Catalog.ТипыОборудования</content>
   <content>Catalog.ЭтапыСтроительства</content>
   <content>Catalog.Подрядчик</content>
   <content>Catalog.Проекты</content>
   <content>Catalog.Координаты</content>
-  <content>Catalog.Трассировка</content>
   <content>Catalog.ЖурналыУчетаКабельнойПродукции</content>
   <content>Catalog.ФизическиеЛица</content>
+  <content>Document.ЗаданияНаЗакупку</content>
 </mdclass:Subsystem>

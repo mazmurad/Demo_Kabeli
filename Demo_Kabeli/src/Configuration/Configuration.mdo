@@ -1856,6 +1856,7 @@
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm.ПодборКабельныхЛиний</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВстречаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ГруппыДоступа</catalogs>
@@ -1918,23 +1919,17 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <catalogs>Catalog.КабельныеЛинии</catalogs>
-  <catalogs>Catalog.Помещения</catalogs>
-  <catalogs>Catalog.ТипыОборудования</catalogs>
   <catalogs>Catalog.ЭтапыСтроительства</catalogs>
   <catalogs>Catalog.Подрядчик</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.Координаты</catalogs>
-  <catalogs>Catalog.Трассировка</catalogs>
   <catalogs>Catalog.ЖурналыУчетаКабельнойПродукции</catalogs>
   <catalogs>Catalog.ЖурналыУчетаКабельнойПродукцииПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.ФизическиеЛицаПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.ТипыПривода</catalogs>
-  <catalogs>Catalog.НоменклатураПрисоединенныеФайлы</catalogs>
-  <catalogs>Catalog.Здания</catalogs>
-  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.КабельнаяНитка</catalogs>
+  <catalogs>Catalog.КабельныеЛинии</catalogs>
+  <catalogs>Catalog.КабельнаяНиткаПрисоединенныеФайлы</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
@@ -1949,6 +1944,7 @@
   <documents>Document.ЗаявкиНаЗакупки</documents>
   <documents>Document.МонтажКабельнойПродукции</documents>
   <documents>Document.ЗаявкиНаПредъявлениеВыполненныхЭМР</documents>
+  <documents>Document.ЗаданияНаЗакупку</documents>
   <documentJournals>DocumentJournal.Взаимодействия</documentJournals>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВариантыВажностиВзаимодействия</enums>
@@ -2031,7 +2027,7 @@
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.СтатусыЖруналКабелей</enums>
-  <enums>Enum.СтатусыЗаданий</enums>
+  <enums>Enum.СтатусыЗаданийНаЗакупку</enums>
   <enums>Enum.СтатусыЗаявок</enums>
   <enums>Enum.СтатусыМонтажа</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
@@ -2136,6 +2132,7 @@
   <dataProcessors>DataProcessor.РабочееМесто</dataProcessors>
   <dataProcessors>DataProcessor.ИнтерфейсРабочегоМеста</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаЖурналУчетаКабельнойПродукции</dataProcessors>
+  <dataProcessors>DataProcessor.ГрупповаяОбработкаДокументов</dataProcessors>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ЗаявленияНаВыпускСертификата</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
