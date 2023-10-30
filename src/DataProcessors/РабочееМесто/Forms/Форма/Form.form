@@ -755,7 +755,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>ОсновныеДанные</name>
-    <id>219</id>
+    <id>383</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -766,19 +766,19 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ОсновныеДанныеЖурналУчетаКабельнойПродукции</name>
-      <id>232</id>
+      <name>ОсновныеДанныеЖурналКабельнойПродукции</name>
+      <id>396</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ОсновныеДанные.ЖурналУчетаКабельнойПродукции</segments>
+        <segments>ОсновныеДанные.ЖурналКабельнойПродукции</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОсновныеДанныеЖурналУчетаКабельнойПродукцииРасширеннаяПодсказка</name>
-        <id>234</id>
+        <name>ОсновныеДанныеЖурналКабельнойПродукцииРасширеннаяПодсказка</name>
+        <id>398</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -792,8 +792,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОсновныеДанныеЖурналУчетаКабельнойПродукцииКонтекстноеМеню</name>
-        <id>233</id>
+        <name>ОсновныеДанныеЖурналКабельнойПродукцииКонтекстноеМеню</name>
+        <id>397</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -817,7 +817,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеКабельнаяЛиния</name>
-      <id>235</id>
+      <id>399</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -828,7 +828,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеКабельнаяЛинияРасширеннаяПодсказка</name>
-        <id>237</id>
+        <id>401</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -843,7 +843,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеКабельнаяЛинияКонтекстноеМеню</name>
-        <id>236</id>
+        <id>400</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -867,7 +867,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеОткудаПомещение</name>
-      <id>238</id>
+      <id>402</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -878,7 +878,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеОткудаПомещениеРасширеннаяПодсказка</name>
-        <id>240</id>
+        <id>404</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -893,7 +893,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеОткудаПомещениеКонтекстноеМеню</name>
-        <id>239</id>
+        <id>403</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -917,11 +917,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеОткудаОборудование</name>
-      <id>241</id>
-      <title>
-        <key>ru</key>
-        <value> </value>
-      </title>
+      <id>405</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -932,7 +928,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеОткудаОборудованиеРасширеннаяПодсказка</name>
-        <id>243</id>
+        <id>407</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -947,7 +943,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеОткудаОборудованиеКонтекстноеМеню</name>
-        <id>242</id>
+        <id>406</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -971,7 +967,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеОткудаКоординаты</name>
-      <id>244</id>
+      <id>408</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -982,7 +978,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеОткудаКоординатыРасширеннаяПодсказка</name>
-        <id>246</id>
+        <id>410</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -997,7 +993,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеОткудаКоординатыКонтекстноеМеню</name>
-        <id>245</id>
+        <id>409</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1021,7 +1017,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеКудаПомещение</name>
-      <id>247</id>
+      <id>411</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1032,7 +1028,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеКудаПомещениеРасширеннаяПодсказка</name>
-        <id>249</id>
+        <id>413</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1047,7 +1043,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеКудаПомещениеКонтекстноеМеню</name>
-        <id>248</id>
+        <id>412</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1071,7 +1067,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеКудаОборудование</name>
-      <id>250</id>
+      <id>414</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1082,7 +1078,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеКудаОборудованиеРасширеннаяПодсказка</name>
-        <id>252</id>
+        <id>416</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1097,7 +1093,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеКудаОборудованиеКонтекстноеМеню</name>
-        <id>251</id>
+        <id>415</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1121,7 +1117,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеКудаКоординаты</name>
-      <id>253</id>
+      <id>417</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1132,7 +1128,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеКудаКоординатыРасширеннаяПодсказка</name>
-        <id>255</id>
+        <id>419</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1147,7 +1143,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеКудаКоординатыКонтекстноеМеню</name>
-        <id>254</id>
+        <id>418</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1171,7 +1167,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ОсновныеДанныеДлинаПроекта</name>
-      <id>256</id>
+      <id>420</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1182,7 +1178,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ОсновныеДанныеДлинаПроектаРасширеннаяПодсказка</name>
-        <id>258</id>
+        <id>422</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1197,7 +1193,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеДлинаПроектаКонтекстноеМеню</name>
-        <id>257</id>
+        <id>421</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1221,7 +1217,7 @@
     </items>
     <autoCommandBar>
       <name>ОсновныеДанныеКоманднаяПанель</name>
-      <id>220</id>
+      <id>384</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1237,10 +1233,10 @@
         <common>true</common>
       </userVisible>
       <name>ОсновныеДанныеСтрокаПоиска</name>
-      <id>223</id>
+      <id>387</id>
       <extendedTooltip>
         <name>ОсновныеДанныеСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>225</id>
+        <id>389</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1255,7 +1251,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеСтрокаПоискаКонтекстноеМеню</name>
-        <id>224</id>
+        <id>388</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1275,10 +1271,10 @@
         <common>true</common>
       </userVisible>
       <name>ОсновныеДанныеСостояниеПросмотра</name>
-      <id>229</id>
+      <id>393</id>
       <extendedTooltip>
         <name>ОсновныеДанныеСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>231</id>
+        <id>395</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1293,7 +1289,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеСостояниеПросмотраКонтекстноеМеню</name>
-        <id>230</id>
+        <id>394</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1314,10 +1310,10 @@
         <common>true</common>
       </userVisible>
       <name>ОсновныеДанныеУправлениеПоиском</name>
-      <id>226</id>
+      <id>390</id>
       <extendedTooltip>
         <name>ОсновныеДанныеУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>228</id>
+        <id>392</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1332,7 +1328,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ОсновныеДанныеУправлениеПоискомКонтекстноеМеню</name>
-        <id>227</id>
+        <id>391</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1348,7 +1344,7 @@
     </searchControlAddition>
     <extendedTooltip>
       <name>ОсновныеДанныеРасширеннаяПодсказка</name>
-      <id>222</id>
+      <id>386</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1363,7 +1359,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ОсновныеДанныеКонтекстноеМеню</name>
-      <id>221</id>
+      <id>385</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1463,7 +1459,7 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.КабельнаяЛиния.Владелец КАК ЖурналУчетаКабельнойПродукции,
+	ЖурналыУчетаКабельнойПродукции.Ссылка КАК ЖурналКабельнойПродукции,
 	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.КабельнаяЛиния,
 	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.ОткудаПомещение,
 	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.ОткудаОборудование,
@@ -1473,23 +1469,14 @@
 	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.КудаКоординаты,
 	ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.ДлинаПроекта
 ИЗ
-	Справочник.ЖурналыУчетаКабельнойПродукции.КабельныеЛинии КАК ЖурналыУчетаКабельнойПродукцииКабельныеЛинии</queryText>
+	Справочник.ЖурналыУчетаКабельнойПродукции КАК ЖурналыУчетаКабельнойПродукции
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ЖурналыУчетаКабельнойПродукции.КабельныеЛинии КАК
+			ЖурналыУчетаКабельнойПродукцииКабельныеЛинии
+		ПО ЖурналыУчетаКабельнойПродукцииКабельныеЛинии.Ссылка = ЖурналыУчетаКабельнойПродукции.Ссылка</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЖурналУчетаКабельнойПродукции</dataPath>
-        <field>ЖурналУчетаКабельнойПродукции</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Журнал учета кабельной продукции</value>
-            </content>
-          </localValue>
-        </title>
-      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КабельнаяЛиния</dataPath>
         <field>КабельнаяЛиния</field>
@@ -1522,6 +1509,19 @@
         <dataPath>ДлинаПроекта</dataPath>
         <field>ДлинаПроекта</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЖурналКабельнойПродукции</dataPath>
+        <field>ЖурналКабельнойПродукции</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Журнал кабельной продукции</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <keyField>КабельнаяЛиния</keyField>
     </extInfo>
   </attributes>
   <attributes>
