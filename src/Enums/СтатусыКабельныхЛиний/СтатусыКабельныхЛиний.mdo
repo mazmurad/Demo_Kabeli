@@ -5,10 +5,10 @@
     <listType typeId="9a57667e-ede4-4503-9cb9-14181c3b4b69" valueTypeId="138651ac-44ea-41cd-b6ab-625b58410870"/>
     <managerType typeId="0fafb8ae-5246-4bd6-940a-1f8793261c28" valueTypeId="45b26dd6-c202-4dd6-b04d-c6dd9b4cc5da"/>
   </producedTypes>
-  <name>СтатусыЖруналКабелей</name>
+  <name>СтатусыКабельныхЛиний</name>
   <synonym>
     <key>ru</key>
-    <value>Статусы жрунал кабелей</value>
+    <value>Статусы кабельных линий</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

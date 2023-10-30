@@ -110,6 +110,20 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.КабельныеЛинии.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="590b19f8-59fa-4dca-b8f9-9650e74a6f55">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыКабельныхЛиний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="d801b6a6-3ac2-4ed9-bef3-82534dcecd87">
     <name>Нитка</name>
     <synonym>

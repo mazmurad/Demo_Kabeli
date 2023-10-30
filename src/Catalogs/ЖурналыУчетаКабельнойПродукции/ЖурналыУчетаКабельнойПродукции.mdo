@@ -113,6 +113,21 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ЖурналыУчетаКабельнойПродукции.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ЖурналыУчетаКабельнойПродукции.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="553b4480-8a5e-4a43-a62f-90431bfa99f2">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="8cb85a39-2044-4cdc-a837-530b4634ed9b">
     <name>Изм</name>
     <synonym>
@@ -286,20 +301,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a5ca9569-b35b-405c-b062-b40256f30a61">
-      <name>Проверена</name>
-      <synonym>
-        <key>ru</key>
-        <value>Проверена</value>
-      </synonym>
-      <type>
-        <types>Boolean</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="7329c447-26bf-4307-8b6c-3fdac07aa43b">
       <name>ДлинаПроекта</name>
       <synonym>
@@ -312,6 +313,20 @@
           <precision>10</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5ca9569-b35b-405c-b062-b40256f30a61">
+      <name>Проверена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проверена</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

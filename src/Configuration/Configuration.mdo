@@ -2025,7 +2025,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
-  <enums>Enum.СтатусыЖруналКабелей</enums>
+  <enums>Enum.СтатусыКабельныхЛиний</enums>
   <enums>Enum.СтатусыЗаданийНаЗакупку</enums>
   <enums>Enum.СтатусыЗаявок</enums>
   <enums>Enum.СтатусыМонтажа</enums>

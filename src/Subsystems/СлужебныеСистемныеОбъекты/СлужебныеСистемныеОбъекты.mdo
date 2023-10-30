@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.ДанныеПоЖурналамКабельнойПродукции</content>
-  <content>Enum.СтатусыЖруналКабелей</content>
+  <content>Enum.СтатусыКабельныхЛиний</content>
   <content>InformationRegister.ДанныеПоЗаданиямПоПрокладкеКабелей</content>
   <content>Enum.СтатусыЗаданийНаЗакупку</content>
   <content>InformationRegister.ДанныеПоЗаявкамНаЗакупку</content>
