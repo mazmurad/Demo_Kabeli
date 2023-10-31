@@ -76,6 +76,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркировка кабеля</value>
+    </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
@@ -125,13 +129,16 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d801b6a6-3ac2-4ed9-bef3-82534dcecd87">
-    <name>Нитка</name>
+    <name>НомерНитки</name>
     <synonym>
       <key>ru</key>
-      <value>Нитка</value>
+      <value>Номер нитки</value>
     </synonym>
     <type>
-      <types>CatalogRef.КабельнаяНитка</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

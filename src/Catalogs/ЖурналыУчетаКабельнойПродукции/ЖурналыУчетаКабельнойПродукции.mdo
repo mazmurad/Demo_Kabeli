@@ -146,6 +146,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1a402f81-01d5-4859-acd8-cde8ca1fee35">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6737abb0-b682-47d8-a88a-be6e33600465">
     <name>ФайлКартинки</name>
     <synonym>
@@ -302,10 +320,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="7329c447-26bf-4307-8b6c-3fdac07aa43b">
-      <name>ДлинаПроекта</name>
+      <name>ДлинаПроектная</name>
       <synonym>
         <key>ru</key>
-        <value>Длина проекта</value>
+        <value>Длина проектная</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -313,6 +331,23 @@
           <precision>10</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3becb32d-f2af-475e-b0ec-57755a5ceb2e">
+      <name>ДлинаФактическая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длина фактическая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

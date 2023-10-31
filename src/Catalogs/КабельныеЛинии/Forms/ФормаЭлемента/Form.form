@@ -242,57 +242,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Нитка</name>
-    <id>31</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Нитка</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>НиткаРасширеннаяПодсказка</name>
-      <id>33</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>НиткаКонтекстноеМеню</name>
-      <id>32</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>НиткаНомерНитки</name>
+    <name>НомерНитки1</name>
     <id>28</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -300,10 +250,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Нитка.НомерНитки</segments>
+      <segments>Объект.НомерНитки</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НиткаНомерНиткиРасширеннаяПодсказка</name>
+      <name>НомерНитки1РасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -318,7 +268,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>НиткаНомерНиткиКонтекстноеМеню</name>
+      <name>НомерНитки1КонтекстноеМеню</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
