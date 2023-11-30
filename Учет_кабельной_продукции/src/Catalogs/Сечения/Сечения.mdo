@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2beb5fd7-b47b-4f66-b390-f512825dea28">
+  <producedTypes>
+    <objectType typeId="f86501fc-208d-462a-9972-07d757eb91a6" valueTypeId="ca7dd1e8-fe01-4d52-a4b3-1e1a85c36d04"/>
+    <refType typeId="85f3fa7b-8ed5-48cb-b65a-15fa23607ea9" valueTypeId="8ef86981-27dc-4e41-811b-5be0821a2a21"/>
+    <selectionType typeId="0333ae2f-1d54-4fd0-9b28-38cd6d192072" valueTypeId="bab76b0b-2428-4d4b-a5f2-8dec1f5c73ea"/>
+    <listType typeId="8a5b4b5a-1e16-46bc-b40b-038b04f4df09" valueTypeId="fdfc423e-98a1-4ee5-bcdb-ef9f86ef81b8"/>
+    <managerType typeId="320b305c-7ea8-494c-a2ae-7a671b461ac8" valueTypeId="815b7cc6-0dc0-413c-a07c-f1e6f2528c27"/>
+  </producedTypes>
+  <name>Сечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сечения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сечения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сечения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

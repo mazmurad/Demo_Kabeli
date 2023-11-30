@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65482006-cacb-4a81-b226-693fd000392f">
+  <producedTypes>
+    <selectionType typeId="da0f25af-832a-4089-a90b-089387bc53e3" valueTypeId="8e514645-ab1e-49df-947e-e80f8cf3833a"/>
+    <listType typeId="63a127e9-eae7-4618-bcb5-ca4360e73f52" valueTypeId="8e210d79-9fda-4aaf-84f4-b23d33a029ca"/>
+    <managerType typeId="c8ba1a7e-f2ce-4f3b-a5cc-945f4a858ec1" valueTypeId="89e70a62-bf0d-4d74-be5a-38274a00731e"/>
+    <recordSetType typeId="2b00c49d-aeb0-4186-84a8-1c2cb4be360d" valueTypeId="8f5874e7-54b6-4bcc-8aa0-3606527d21e4"/>
+    <recordKeyType typeId="57848587-3cca-4550-91ff-08ffaeefdb97" valueTypeId="0675b88f-ebd1-4a83-bca2-4f91628781bb"/>
+    <recordType typeId="d9ee78ca-2013-4467-ab6a-38e80e7ec330" valueTypeId="188c89a5-0872-4e25-b8fa-654af3a71e04"/>
+    <recordManagerType typeId="66d7bc8a-1c1d-4b9d-b07a-48ff805c430a" valueTypeId="d36cdccd-2092-4027-ba8a-500c6dc91932"/>
+  </producedTypes>
+  <name>РазрешениеМонтажаКПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешение монтажа КПП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17fcba16-969a-422d-b430-399345e7a7cd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусаМонтажаКППНаОбъекте</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="42905fe1-df72-4c23-bc80-fab142fd1436">
+    <name>ЖурналУчетаКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал учета КП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="862d648a-fd8c-4df5-8207-0f6d0365ad29">
+    <name>КабельнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельная линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельныеЛинии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

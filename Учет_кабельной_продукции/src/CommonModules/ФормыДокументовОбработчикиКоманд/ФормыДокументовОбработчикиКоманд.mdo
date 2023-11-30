@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fbc50a3-de1f-4015-9d3c-886fe61cc943">
+  <name>ФормыДокументовОбработчикиКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы документов обработчики команд</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

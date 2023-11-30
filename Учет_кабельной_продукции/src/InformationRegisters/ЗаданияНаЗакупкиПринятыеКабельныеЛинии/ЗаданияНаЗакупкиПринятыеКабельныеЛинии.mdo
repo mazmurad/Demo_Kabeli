@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a099026-ec1c-4d48-a5ae-82f58913c7ca">
+  <producedTypes>
+    <selectionType typeId="68285879-6430-4c9b-ac0d-52afde8434f2" valueTypeId="e62fd71d-8f26-47a6-862b-62075ee934c9"/>
+    <listType typeId="275bce92-7fea-4146-81da-fb6135c2771b" valueTypeId="b54cd6bb-96ce-4a5c-ba57-0fa73d027001"/>
+    <managerType typeId="283de3a1-5334-48b0-b368-9723d0c3ac0d" valueTypeId="20d9a484-bde1-4b87-a174-c1775f500e55"/>
+    <recordSetType typeId="d21207b8-c496-41c7-8667-ff5804d0b4f9" valueTypeId="c9fa6378-51ba-4a2c-abb4-8ba74ba5a987"/>
+    <recordKeyType typeId="0421a9ad-8d6d-42bf-af64-bef3b3176314" valueTypeId="cd8aa70d-b969-41bc-83cd-5bc3298d28d3"/>
+    <recordType typeId="0e4a7507-bb55-4595-a439-ad835108b608" valueTypeId="79cd8398-3106-47dc-b473-c1de1953698b"/>
+    <recordManagerType typeId="ec581fc1-75d6-4683-9a15-45dcf49c7ada" valueTypeId="3e765e12-d912-46d9-90b1-210819dc012a"/>
+  </producedTypes>
+  <name>ЗаданияНаЗакупкиПринятыеКабельныеЛинии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на закупки принятые кабельные линии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="124aaca5-1d4c-4b7b-80f2-f0ae60c33eac">
+    <name>КабельняЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельня линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельныеЛинии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

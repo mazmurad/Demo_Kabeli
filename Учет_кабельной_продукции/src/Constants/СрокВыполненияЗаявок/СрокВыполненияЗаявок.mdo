@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="843a7dbc-7b12-4999-ac6a-194484c5204b">
+  <producedTypes>
+    <managerType typeId="413125dd-682b-4f62-8545-0127cd3957b3" valueTypeId="3d3d7e74-e606-4ad5-a6c5-5481de6de3ef"/>
+    <valueManagerType typeId="acd4ee1d-9f07-457e-a0b9-099b56cc7090" valueTypeId="fc3d47a8-5725-4a14-92ea-725aa2847657"/>
+    <valueKeyType typeId="8630a553-8e87-40cb-8055-43af58ab6dee" valueTypeId="69e347ec-1831-4c4a-a95b-0fccf5279c78"/>
+  </producedTypes>
+  <name>СрокВыполненияЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок выполнения заявок</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

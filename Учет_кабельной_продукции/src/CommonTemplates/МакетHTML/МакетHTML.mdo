@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc2cf5c5-3491-4eee-9ef2-bf46f32066e5">
+  <name>МакетHTML</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет HTML</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

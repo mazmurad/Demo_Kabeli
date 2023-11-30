@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5adff719-cc97-4483-a6fb-a1db38b61d85">
+  <producedTypes>
+    <refType typeId="a88f036a-2d37-45d5-97aa-c751a5a74c97" valueTypeId="4e9f800d-601d-471a-85a1-2f598a42c88c"/>
+    <listType typeId="03799f6e-eff8-4cd2-b583-57d8874261a9" valueTypeId="d7528580-4e58-41cd-b4c1-bfefc1e2f8fa"/>
+    <managerType typeId="f88ffad8-0921-4232-b264-387f1a115912" valueTypeId="055b7f57-0bf1-4e1d-bac6-3f0911ce0dc3"/>
+  </producedTypes>
+  <name>СтатусаМонтажаКППНаОбъекте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статуса монтажа КППНа объекте</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="022ad3bb-4ebf-4c99-8bca-377e6162f338">
+    <name>ЗапросНаРасмотрении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос на расмотрении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="544241e2-30fa-40b9-8310-1ea95cfca0b4">
+    <name>МонтажКППНеРазрешен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтаж КПП не разрешен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="003e3791-d62a-4c9c-8ef0-db2d3ce9d43c">
+    <name>МонтажКППРазрешен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтаж КПП разрешен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

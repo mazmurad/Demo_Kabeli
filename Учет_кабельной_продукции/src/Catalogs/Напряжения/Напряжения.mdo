@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7181a97-f74b-4ad5-ab6b-61f17bb4b2b9">
+  <producedTypes>
+    <objectType typeId="2aaa5bb6-898d-4cf5-ae83-497c210f08b2" valueTypeId="421831de-833d-4dae-939f-ffd086a9a4ac"/>
+    <refType typeId="7549d128-7793-4c25-9f5a-2742f0c66a68" valueTypeId="d98cacc9-d6c2-41ba-a60a-889f0a4ab6dc"/>
+    <selectionType typeId="187b252c-e0d5-4e14-a2fa-ddaafd12c58f" valueTypeId="5a69af44-3df7-40ba-a8ae-768d82f0fa58"/>
+    <listType typeId="37991b9e-6586-4a88-9b48-387af1c4c5cd" valueTypeId="c88a56e5-2c0f-4b5d-ae66-1f6e369b0413"/>
+    <managerType typeId="7522a6a7-d7da-4e0b-b821-7bc8371a3ad5" valueTypeId="8aa1338d-12e9-4f37-b311-421620c82402"/>
+  </producedTypes>
+  <name>Напряжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напряжения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Напряжения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Напряжения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

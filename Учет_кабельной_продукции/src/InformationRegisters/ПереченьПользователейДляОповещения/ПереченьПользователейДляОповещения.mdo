@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e8b512-99db-4246-b6c0-76a218981fe5">
+  <producedTypes>
+    <selectionType typeId="eb735e2e-6402-46a9-a013-5d9d6c2cc5a7" valueTypeId="2659b9c2-f3d5-463b-9e2b-9946522b6b6b"/>
+    <listType typeId="f4e97062-a4b2-4d1e-bfaf-6ed0a159f94e" valueTypeId="a86bd46d-7571-45e1-b6f0-7402b3665425"/>
+    <managerType typeId="2ba0f4c4-332d-4771-bf34-17e20777f828" valueTypeId="bfdee783-4b24-4ae8-a5bb-82267ec46c4b"/>
+    <recordSetType typeId="d653d6f2-2005-462b-ad76-651031b09ba2" valueTypeId="d952a0ed-c435-4ccd-ae90-9e311f504ba5"/>
+    <recordKeyType typeId="1c73f8f0-43e6-44ae-9d8b-21db6071559b" valueTypeId="03ce0d20-c163-4393-86cb-417d875cde5c"/>
+    <recordType typeId="711338be-c070-406f-8d90-55d8225b2e83" valueTypeId="407f9aa7-598a-4ece-b448-f91cf7dbdacb"/>
+    <recordManagerType typeId="9e839571-12ed-4c2a-a7c7-b1212aa216eb" valueTypeId="f9459274-c5b0-4394-9c3a-8084ef152a60"/>
+  </producedTypes>
+  <name>ПереченьПользователейДляОповещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень пользователей для оповещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ed629e7f-2231-4bbf-84de-512730eb9475">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b963b055-0ef7-4bd4-8664-6548a76631f2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="330510d5-af65-417a-9253-935e692dd160">
+  <producedTypes>
+    <selectionType typeId="ad0b676b-5a7c-46d7-bbfd-8177ff7e7c1a" valueTypeId="f6dae9b3-a2fc-4f5e-989c-a8a685390510"/>
+    <listType typeId="3f31db5b-256a-4532-8523-2a0db9dd1527" valueTypeId="45421304-5602-4210-af57-0f5989f26da1"/>
+    <managerType typeId="105c0687-6f18-4171-8ed4-0dafc5dd5622" valueTypeId="275c5939-5723-4bdc-bd0a-c50c40f8825b"/>
+    <recordSetType typeId="32843557-be6e-4c73-9733-a30c3bacc6ae" valueTypeId="28c091c9-27a1-4d76-8225-46094ed67d29"/>
+    <recordKeyType typeId="de131307-200d-40c3-93d9-c85136dec856" valueTypeId="ba35e2a9-34b9-404d-a39f-f5ad33083e20"/>
+    <recordType typeId="adb193dc-f1fd-43da-a3cd-059daeca6869" valueTypeId="13eda717-0969-4a9f-9328-78da80de97ea"/>
+    <recordManagerType typeId="cfd04084-ba38-4970-9d18-e9ff1326cf8a" valueTypeId="1000a99a-9fce-40ac-8142-afe4434864c4"/>
+  </producedTypes>
+  <name>ЗаданияНаЗакупкиСтатусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на закупки статусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="65ba69c7-96ec-4087-9142-447fe959e969">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаданийНаЗакупку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bfbc5072-0aff-440d-87c4-ed1239241702">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="004a912d-a8ef-4c7c-8922-6a7aea208fd2">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b492ff96-39df-45e0-b63c-1643c2baeee4">
+    <name>КабельнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельная линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельныеЛинии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

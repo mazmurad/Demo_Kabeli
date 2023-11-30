@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4806217e-5b22-44eb-9229-9494117be1fb">
+  <producedTypes>
+    <objectType typeId="c9b86072-b087-4208-9df4-f34efb51c636" valueTypeId="0d5ab517-cb9b-44d5-9704-a4a5fac25783"/>
+    <refType typeId="7a5c185f-fdff-4276-90f4-985ce919bf79" valueTypeId="cdb2fc0b-f7e3-41dc-8414-4389bbe3e45f"/>
+    <selectionType typeId="1d80e039-9d4d-49d4-a572-e0d47781799e" valueTypeId="6c5b3def-c8ba-4281-afbc-28a53ebd5da0"/>
+    <listType typeId="3fd543a7-916b-40f3-a834-ecc96fcd42a7" valueTypeId="2fdd5031-ed7d-4b7c-a813-55063d41e34c"/>
+    <managerType typeId="adb8fc87-70a0-4a46-8d14-8c241194c09d" valueTypeId="78435b30-e728-4aae-ac0e-4b7f8584b990"/>
+  </producedTypes>
+  <name>ЗаявкаНаМонтаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на монтаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаявкаНаМонтаж.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.ЖурналыУчетаКабельнойПродукции</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаявкаНаМонтаж.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаявкаНаМонтаж.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.ЗаявкиНаМонтажСтатусы</registerRecords>
+  <registerRecords>InformationRegister.ДанныеПоЗаданиямПоПрокладкеКабелей</registerRecords>
+  <registerRecords>InformationRegister.РазрешениеМонтажаКПП</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bb1beb48-33bc-4e6a-bcb7-2341898690f2">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаявкиНаМонтаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f5f3e34-432f-41d4-b660-9cc66ed29a99">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a26b1c7c-35db-4eab-8dab-f2992ad1e66a">
+    <name>ДатаВыдачиВМонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи в монтаж</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c456a043-a3f0-45c4-9de0-2663ee138204">
+    <name>ДатаОтчетаОМонтаже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета о монтаже</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ada7c9d4-91fa-4df3-a886-bfc21bfb841f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c3907b7-b2ef-4ad2-a031-f35cf1a1b53b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="44b4dbb1-086d-4a45-b8d2-e1c0f518cdd9">
+    <producedTypes>
+      <objectType typeId="1de56cce-76d0-41bb-924e-2b1a5a5a5fe0" valueTypeId="a67b35b7-dbd1-4a2c-a6a9-93e69090fe97"/>
+      <rowType typeId="79d8a39c-6719-4549-97df-42cf087537ec" valueTypeId="e1ea7cb7-9000-4c3a-bcbd-2ef1faadc9c3"/>
+    </producedTypes>
+    <name>КабельныеЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельные линии</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4a7fcc2e-1ff3-4f72-b2f3-d936d8fc68f7">
+      <name>ЖурналУчетаКП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Журнал учета КП</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29e5c598-d6f7-4e8c-88c9-2ff79355c8b4">
+      <name>КабельнаяЛиния</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кабельная линия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КабельныеЛинии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32b1c721-bd16-4298-9f2b-2945981a9b50">
+      <name>РазрешитьМонтаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Разрешить монтаж</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91ab4d65-fb70-47ba-93cc-97fe48f97a97">
+      <name>ЗапретитьМонтаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запретить монтаж</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

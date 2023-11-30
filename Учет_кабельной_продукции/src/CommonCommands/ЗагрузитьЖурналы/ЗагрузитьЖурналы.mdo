@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12972f96-a7e4-4e03-adc5-bed8e260e109">
+  <name>ЗагрузитьЖурналы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить журналы</value>
+  </synonym>
+  <group>ActionsPanelCreate</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

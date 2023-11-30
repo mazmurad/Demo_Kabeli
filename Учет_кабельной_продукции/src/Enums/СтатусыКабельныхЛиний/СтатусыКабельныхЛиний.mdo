@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95726e0d-8670-4d78-bdb5-d3977f3439e8">
+  <producedTypes>
+    <refType typeId="1fc20c21-e3c0-4caa-8c52-35a155645217" valueTypeId="881dc0e0-393e-4c8a-9126-1b90006589ac"/>
+    <listType typeId="9a57667e-ede4-4503-9cb9-14181c3b4b69" valueTypeId="138651ac-44ea-41cd-b6ab-625b58410870"/>
+    <managerType typeId="0fafb8ae-5246-4bd6-940a-1f8793261c28" valueTypeId="45b26dd6-c202-4dd6-b04d-c6dd9b4cc5da"/>
+  </producedTypes>
+  <name>СтатусыКабельныхЛиний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы кабельных линий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78a0c32d-447c-4e39-a97b-e3ea75a24af2">
+    <name>ЗаданиеНаЗакупкуНеВыдано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на закупку не выдано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d99409cb-a117-48f1-b0e5-9422ebb98fa6">
+    <name>ЗаданиеНаЗакупкуКППВОформлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на закупку КПП в оформлении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c36bcba-378e-43fe-aac0-cbd3927d17c5">
+    <name>ВЗакупке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В закупке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51fae3aa-0624-4f79-baf1-dc09c29e914b">
+    <name>ВходнойКонтрольНеПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входной контроль не пройден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da15a997-f3b5-48b6-8a8e-abebece85ea3">
+    <name>ЭМРКППНеРазрешён</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭМР КПП не разрешён</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e1ec50c-8b92-4ccf-a731-84308e7f5c7c">
+    <name>ЗаданиеНаЭМРКППВОформлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на ЭМРКППВОформлении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="285a1c9b-dd98-4185-a853-eb1c901ab264">
+    <name>ЭМРКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭМР КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbcca0dc-4cc6-4105-bde8-a7c32eccfd4a">
+    <name>ПредъявлениеЭМРКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предъявление ЭМР КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="452a435e-1d67-4799-9e9b-53235869f3a1">
+    <name>ЗамечанияКЭМРКПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замечания к ЭМР КПП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdb20c9c-ee77-477a-babe-11ab65173105">
+    <name>ПодписаниеИКЖЧистовик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписание ИКЖ (чистовик)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db8da5f4-ea47-462a-a4a2-51cbca98198b">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf338d19-31ad-4800-a91f-09f43a080f4e">
+    <name>Аннулировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннулировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff4f1a94-6e01-4fe5-8bb8-4c26bb11880a">
+    <name>Заменён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменён</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa8a275-671c-4460-aa8b-e6ba1d500e16">
+  <producedTypes>
+    <objectType typeId="7204965f-f327-47b1-94fb-273a2f31c834" valueTypeId="b0748c47-94d0-4f30-8007-a7153434ba89"/>
+    <refType typeId="2b54a95e-3db6-41af-a6e3-259eb40e4a79" valueTypeId="cdf76c62-1170-4804-8cab-5bcae8a985d4"/>
+    <selectionType typeId="a3837f3d-b22c-4ab7-b6e6-9384ce59cf6c" valueTypeId="e9c5783c-72e6-412d-94c8-ce226a0f9850"/>
+    <listType typeId="56ba8708-c654-4882-b8d8-0ae388e295a3" valueTypeId="f543b876-c4d5-4585-ba69-97c5011e749d"/>
+    <managerType typeId="fe1a80b5-8439-4560-adca-7cc3d54bc587" valueTypeId="cbaa9855-10ca-4e68-b1b1-76b08628b784"/>
+  </producedTypes>
+  <name>ЗаданияНаЗакупку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на закупку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаданияНаЗакупку.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задание на закупку</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаданияНаЗакупку.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаданияНаЗакупку.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <registerRecords>InformationRegister.ЗаданияНаЗакупкиСтатусы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="66d680df-a2aa-492f-925e-4d4d19c3d014">
+    <name>Подрядчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подрядчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подрядчик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2d76ab0-d0f7-409d-bc86-a2ae218ecd30">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>199</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12b6f59e-e711-4279-b58d-79fcdac3a854">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаданийНаЗакупку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc80771b-2724-40a2-b491-2323d1a36ef1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="faf5d99b-5eaf-4fc5-a90a-8ed904ed416b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a336445c-4b92-4347-a7c6-358f552e3220">
+    <producedTypes>
+      <objectType typeId="c3351829-e6d5-4a6e-a915-2f6c51b2bd16" valueTypeId="ada2bf91-8bff-4661-9f49-45f9f28ede37"/>
+      <rowType typeId="71832eda-b2d1-4e35-b3c9-964e604d955b" valueTypeId="960f9649-76dc-49f2-83bf-28ac3e2a2148"/>
+    </producedTypes>
+    <name>КабельныеЛинии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельные линии</value>
+    </synonym>
+    <attributes uuid="6fa6284f-cbf7-4f36-8e49-2a8d2f5e7c21">
+      <name>ЖурналУчетаКП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Журнал учета КП</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЖурналыУчетаКабельнойПродукции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="723b4fe9-fccc-48da-93d4-2474a4dd3757">
+      <name>КабельнаяЛиния</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кабельная линия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КабельныеЛинии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="843c6e8d-32cb-4e0e-8306-ae1ac0871e40">
+      <name>Принято</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принято/не принято</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3132b25-e710-42cf-9a5f-931d1a95f315">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>199</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

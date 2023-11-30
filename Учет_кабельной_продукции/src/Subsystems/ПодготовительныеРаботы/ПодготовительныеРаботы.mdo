@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="304238ab-5706-4ded-8d6c-aadb17cea0e5">
+  <name>ПодготовительныеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовительные работы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КорзинаЗакупки</picture>
+  </picture>
+  <content>Catalog.КабельныеЛинии</content>
+  <content>Document.ЗаявкаНаМонтаж</content>
+  <content>DataProcessor.РабочееМесто</content>
+  <content>Document.ЗаявкиНаЗакупки</content>
+  <content>Report.КоличествоВыданоЗаданийНаЗакупку</content>
+  <content>Document.ЗаданияНаЗакупку</content>
+</mdclass:Subsystem>

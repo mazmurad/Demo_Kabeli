@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82beab12-996f-4884-8021-6c0106f20633">
+  <producedTypes>
+    <selectionType typeId="1b077c82-814f-4133-8e7d-5c85e871255c" valueTypeId="75d352c7-206d-477e-9bb9-c511fb61c447"/>
+    <listType typeId="143b2506-17c5-43d1-b05a-15b7a1d30c49" valueTypeId="52cf17dc-9659-48ef-8638-0a6688752ec4"/>
+    <managerType typeId="fc000d66-f52d-47a0-ba0d-05c30e4d18ca" valueTypeId="f1c52f50-46f3-41aa-ba8c-f747c8740ced"/>
+    <recordSetType typeId="83050f89-97ac-4b46-b7d6-d511208a76b2" valueTypeId="4ab7259e-f8a6-49f6-a1a0-f2de40852770"/>
+    <recordKeyType typeId="35b85159-1ed1-41d5-872b-ed905f073f66" valueTypeId="907a9179-f07d-417f-9ba2-5e2e5cd8ff8a"/>
+    <recordType typeId="33ee9095-2ee0-4c61-98e9-9cf82851ffa6" valueTypeId="f57dbbe9-976a-4e40-bb47-e89efb9d064f"/>
+    <recordManagerType typeId="233967a0-1818-4c7f-b405-61c9fde20238" valueTypeId="6ccabb22-2f2e-4d5a-b39e-45ef7e18e6f6"/>
+  </producedTypes>
+  <name>АктВходногоКонтроляНаКЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт входного контроля на КЛ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bee2f9e7-d42a-4e3a-8732-f51b8039205b">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыВК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6dba6e59-9119-4f6f-a10d-a38f09e0e500">
+    <name>КабельнаяЛиния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабельная линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КабельныеЛинии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

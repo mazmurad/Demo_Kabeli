@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2e3bb8f-d576-44d1-98e4-1b963fdd395a">
+  <producedTypes>
+    <objectType typeId="dc079c6b-9a9d-4cfa-bd8d-2794dd2cfa26" valueTypeId="9e72a608-eefe-4138-82f2-2f6c2a71d57f"/>
+    <refType typeId="7ab77aec-c5a1-44cf-b952-d1c6e2a042a5" valueTypeId="e2b10d8c-3031-4866-ac65-9df1acb6d5c3"/>
+    <selectionType typeId="85a79a64-8667-4fa8-b623-0478a3d760a7" valueTypeId="0d6f718e-c817-4899-aea2-5b6d52120910"/>
+    <listType typeId="cb4ec1c2-9464-40ce-85c2-a2590cdc8d00" valueTypeId="a6c90dfb-7859-4739-b5a1-7d875976e830"/>
+    <managerType typeId="9786c214-ed75-4146-8d25-98002119f41a" valueTypeId="8422c1b2-decc-4a40-9899-6c6c77a862d6"/>
+  </producedTypes>
+  <name>МаркиКабелиПроектные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки кабели проектные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МаркиКабелиПроектные.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МаркиКабелиПроектные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e97cfdc6-7a20-41ec-b0c3-67eaa3679218">
+  <producedTypes>
+    <refType typeId="dec7e021-708e-404f-a0b9-09968364cb1f" valueTypeId="7981e6d6-8951-47e7-887d-fd6cf4797c45"/>
+    <listType typeId="5b96da7b-b8fc-4c02-8dd4-f85d350ec6ec" valueTypeId="3d2c0e5f-8d46-40fb-9030-845d8b7c7440"/>
+    <managerType typeId="e2273876-b81a-4689-a009-abbacd9095ac" valueTypeId="41d79be6-9c52-42d2-995e-85315cc13322"/>
+  </producedTypes>
+  <name>СтатусыВК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ВК</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="71dba116-bf1e-42e7-a8c5-dc6582e0edc2">
+    <name>ВКПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВК пройден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36c2d62b-351b-4040-bd03-3328c3a36eea">
+    <name>ВКНеПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВК не пройден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
